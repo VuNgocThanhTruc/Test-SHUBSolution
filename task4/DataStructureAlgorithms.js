@@ -75,6 +75,11 @@ const sumEvenDifferenceOdd = (evenPrefixSum, oddPrefixSum, l, r) => {
         arrResult.push(result);
     });
 
+    console.log("\nData: ");
+    console.log(data);
+    console.log("Queries: ");
+    console.log(queries);
+    console.log("\nResult:");
     console.log(arrResult);
 
     await sendData(arrResult, token);
